@@ -481,3 +481,41 @@ li{
   border-radius: 5px;
 }
 /* modal */
+
+
+
+/* weather */
+
+.wBody {
+  z-index: -1;
+  background-image: url('../img/weatherbg.webp');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+}
+
+#weather1 {
+  padding-top: 15vh;
+}
+
+.weatherbod {
+  background: rgba(74, 74, 74, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(201, 202, 215, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 75vh;
+  padding-top: 4vh;
+  padding-left: 3vh;
+  color:white;
+}
+
+.wrow1{
+  padding-top:6vh;
+}
+
+.wrow2{
+  padding-top:6vh
+}
